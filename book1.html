@@ -7,7 +7,11 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <title>The Hobbit - Book Review</title>
   <style>
-    /* Styles for the existing code remain unchanged */
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #f7fafc;
+      color: #2d3748;
+    }
 
     .navbar {
       background-color: #2d2d30;
@@ -19,6 +23,40 @@
       color: #fff;
       text-decoration: none;
       margin-right: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #1a202c;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .summary {
+      background-color: #edf2f7;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #718096;
+    }
+
+    .book-cover {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -34,7 +72,50 @@
     <img src="https://m.media-amazon.com/images/I/71S7Z+YhJFL._AC_UF1000,1000_QL80_.jpg" alt="The Hobbit Book Cover"
       class="book-cover">
 
-    <!-- Rest of the content remains unchanged -->
+    <div class="summary">
+      <p class="mb-4">
+        "The Hobbit" by J.R.R. Tolkien is a timeless classic that takes readers on an extraordinary journey into the
+        enchanting world of Middle-earth. This epic fantasy novel follows the adventure of Bilbo Baggins, a hobbit who
+        is reluctantly thrust into a quest to reclaim treasure guarded by the fearsome dragon Smaug.
+      </p>
+
+      <p class="mb-4">
+        The story is filled with rich characters, mythical creatures, and a sense of wonder that captivates readers of
+        all ages. As Bilbo faces challenges and discovers his inner courage, Tolkien weaves a tale that explores themes
+        of heroism, friendship, and the power of a simple individual to make a significant impact on the world.
+      </p>
+
+      <p class="quote">"In a hole in the ground there lived a hobbit..."</p>
+    </div>
+
+    <h2 class="text-2xl font-bold mb-4">Exploring Middle-earth</h2>
+
+    <p class="mb-4">
+      Tolkien's world-building is unparalleled, creating a vivid and immersive setting for the characters' adventures.
+      From the lush landscapes of the Shire to the treacherous paths of Mirkwood, readers are transported to a place
+      where magic and myth come to life.
+    </p>
+
+    <h3 class="text-xl font-bold mb-2">Characters and Creatures</h3>
+
+    <p class="mb-4">
+      Each character in "The Hobbit" is carefully crafted, from the wise and mysterious Gandalf to the brave and
+      resourceful Bilbo. Not to forget the memorable dwarves who accompany Bilbo on his quest. Additionally, encounters
+      with trolls, elves, and the iconic Gollum add depth to the narrative.
+    </p>
+
+    <h3 class="text-xl font-bold mb-2">The Hero's Journey</h3>
+
+    <p class="mb-4">
+      Bilbo's transformation from a reluctant adventurer to a hero is a central theme. The challenges he faces, the
+      friendships he forges, and the lessons he learns make for a compelling hero's journey that resonates with readers
+      across generations.
+    </p>
+
+    <p>
+      Overall, "The Hobbit" stands as a masterpiece of fantasy literature, leaving an indelible mark on the genre and
+      inspiring countless readers to embark on their own literary quests.
+    </p>
   </div>
 </body>
 
