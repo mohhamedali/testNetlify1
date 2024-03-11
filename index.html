@@ -307,7 +307,7 @@
           <img src="newyork.jpg" alt="New York" width="400" height="300">
           <p><strong>New York</strong></p>
           <p>Saturday 28 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        <button class="btn" onclick="redirectToWalmart('https://www.walmart.com/ip/Sony-PlayStation-5-Console-Digital-Edition-Marvel-rsquo-s-Spider-Man-2-Limited-Edition-Bundle-PlayStation-5-System/5132774277?wmlspartner=wlpa&selectedSellerId=101062761&adid=222222222275132774277_101062761_159711522476_21061925214&wl0=&wl1=g&wl2=c&wl3=692836342077&wl4=pla-2280078554159&wl5=9004314&wl6=&wl7=&wl8=&wl9=pla&wl10=416220747&wl11=online&wl12=5132774277_101062761&veh=sem&gad_source=1&gclid=CjwKCAjw17qvBhBrEiwA1rU9w9ucZQXmPPlU6gg9kJYOGbw5DvYpKGxFrswruye2HNPAgpU3YQ9jcxoC2BsQAvD_BwE')">Buy Tickets</button>
         </div>
       </div>
       <div class="col-sm-4">
@@ -408,6 +408,11 @@ $(document).ready(function(){
 </script>
 
 <script>
+function redirectToWalmart(url) {
+  // Redirect to the specified Walmart URL
+  window.location.href = url;
+}
+
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
